@@ -1,0 +1,23 @@
+{
+    "name": "saulocamargos/febraban-php",
+    "description": "Bibliote para leitura de arquivo no formato febraban para conta eletronica de telefonia",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Saulo Camargos",
+            "email": "saulo.camargos.sc@gmail.com"
+        }
+    ],
+    "require":{
+        "php": ">7.0"
+    },
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4":{
+            "SauloCamargos\\": "src/"
+        }
+    }
+}
